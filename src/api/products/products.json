@@ -1,0 +1,52 @@
+[
+    {
+        "productId": 1,
+        "productName": "Bass (Sea)",
+        "productCode": "GDN-0011",
+        "releaseDate": "March 19, 2016",
+        "description": "White  Freshwater Round",
+        "price": 19.95,
+        "starRating": 3.2,
+        "imageUrl": "../../app/assets/images/bass.jpg"
+    },
+    {
+        "productId": 2,
+        "productName": "Sardines (Pilchards)",
+        "productCode": "GDN-0023",
+        "releaseDate": "March 18, 2016",
+        "description": "Oily  Seawater  Round",
+        "price": 32.99,
+        "starRating": 4.2,
+        "imageUrl": "../../app/assets/images/sardines.jpg"
+    },
+    {
+        "productId": 5,
+        "productName": "Trout",
+        "productCode": "TBX-0048",
+        "releaseDate": "May 21, 2016",
+        "description": "White  Freshwater Round",
+        "price": 8.9,
+        "starRating": 4.8,
+        "imageUrl": "../../app/assets/images/trout.jpg"
+    },
+    {
+        "productId": 8,
+        "productName": "Haddock",
+        "productCode": "TBX-0022",
+        "releaseDate": "May 15, 2016",
+        "description": "White  Seawater  Round",
+        "price": 11.55,
+        "starRating": 3.7,
+        "imageUrl": "../../app/assets/images/haddock.jpg"
+    },
+    {
+        "productId": 10,
+        "productName": "Brill  (Scophthalmidae)",
+        "productCode": "GMG-0042",
+        "releaseDate": "October 15, 2015",
+        "description": "White  Seawater  Flatfish",
+        "price": 35.95,
+        "starRating": 4.6,
+        "imageUrl": "../../app/assets/images/brill.jpg"
+    }
+]

@@ -1,0 +1,45 @@
+<div class="container">
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        {{pageTitle}}
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-3">Product Name :</div>
+                    <div class="col-md-6">{{product?.productName}}</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">Product Code :</div>
+                    <div class="col-md-6">{{product?.productCode}}</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">Fished Date :</div>
+                    <div class="col-md-6">{{product?.releaseDate}}</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">Description :</div>
+                    <div class="col-md-6">{{product?.description}}</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">Price :</div>
+                    <div class="col-md-6">{{product?.price | currency:'INR':true:'1.2-2'}}</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">Rating :</div>
+                    <div class="col-md-6"><ai-star [rating]="product?.starRating" (ratingClicked)="onRatingClicked($event)"></ai-star></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" [src]="product?.imageUrl" [title]="product?.productName" [style.width.px]="300" [style.margin.px]="2">
+            </div>
+        </div>
+        </div>
+        <div class='panel-footer'>
+        <a class='btn btn-default' (click)='onBack()' style='width:80px'>
+            <i class='glyphicon glyphicon-chevron-left'></i> Back
+        </a>
+    </div>
+</div>
+</div>

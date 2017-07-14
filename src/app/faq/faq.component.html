@@ -1,0 +1,12 @@
+<div class="panel-group" id="accordion">
+    <div class="panel panel-default" *ngFor="let faq of faqs; let i = index" [attr.data-index]="i" [ngClass]="{'panel-open': isOpen}">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{i}}">{{i+1}}) {{faq.question}}</a>
+        </h4>
+      </div>
+      <div id="collapse{{i}}" class="panel-collapse collapse">
+        <div class="panel-body">{{faq.answer}}</div>
+      </div>
+    </div>
+</div>
